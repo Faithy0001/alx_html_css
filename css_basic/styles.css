@@ -23,3 +23,10 @@ aside {
     overflow-y: auto;
 }
 
+* Responsive design for smartphones */
+@media (max-width: 768px) {
+    body.works_on_smartphone main {
+        flex-direction: column;
+    }
+}
+
